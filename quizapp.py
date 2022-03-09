@@ -57,7 +57,7 @@ class Quiz:
         mb.showinfo("Result Status",f"{result}\n{correct}\n{wrong}")
     def buttons(self):
         next_button = Button(root,text="Next", bg="green",command=self.next_btn,fg="white", font=("ariel",16,"bold"))
-        next_button.place(x=300,y=350)
+        next_button.place(x=300,y=370)
         quit_button = Button(root,text="Quit", bg="green",fg="white",command=root.destroy, font=("ariel",16,"bold"))
         quit_button.place(x=700,y=50)
 root=Tk()
